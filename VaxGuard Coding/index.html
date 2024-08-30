@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VaxGuard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <!-- navigation -->
+        <nav>
+            <div class="nav-logo">
+                    <img src="logo.png" alt="VaxGuard: Ensuring Child Immunization" height="90px"> 
+            </div>
+            <div class="navigation">
+                <ul>
+                    <li><a href="#home"><b><h3>Home</h3></b></a></li>
+                    <li><a href="about.html"><b><h3>About Us</h3></b></a></li>
+                    <li><a href="vaccinationcharts.html"><b><h3>Vaccination Charts</h3></b></a></li>
+                    <li><a href="#login"><b><h3>Login</h3></b></a></li>
+                    <li><a href="#services"><b><h3>Services</h3></b></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home -->
+    <div id="home">
+      <h1>VaxGuard</h1>
+      <h2>" Ensuring Child Immunization "</h2>
+      <p>Immunization is the right of every child</p>
+      <div class="btn">
+        <a class="green" href="#login">Login</a>
+      </div>
+    </div>
+
+    <!-- moving text -->
+    <style>
+      #mt {
+          color: #0E2A45;
+          font-size: 3rem;
+          height: 15vh;
+          padding-top: 22px;
+      }
+  </style>
+  </head>
+  <body>
+  <marquee width="100%"
+           id="mt"><b>
+      VAXGUARD: VACCINATE YOUR CHILD TODAY</b>
+  </marquee>
+
+
+   <!-- Why -->
+   <div id="why">
+    <h1>Why Vaccinate?</h1>
+    <h3>"Vaccines save lives; fear endagers them. A simple message parents need to keep hearing."</h3>
+    <br>
+    <p>Vaccines are the most effective way to prevent many infectious diseases. The global immunisation efforts have saved an estimated 154 million lives or the equivalent of six lives every minute of every year over the past 50 years. The vast majority of lives saved - 101 million, were those of infants.</p>
+  </div>
+
+
+
+
+
+  <!-- login -->
+  <div id="login">
+  <div class="container">
+    <input type="checkbox" id="flip">
+    <div class="cover">
+      <div class="front">
+        <div class="text">
+          <span class="text-1">LOGIN</span>
+        </div>
+      </div>
+      <div class="back">
+        <div class="text">
+        </div>
+      </div>
+    </div>
+    <div class="forms">
+        <div class="form-content">
+          <div class="login-form">
+            <div class="title">Login</div>
+          <form action="login.php" method="post">
+            <div class="input-boxes">
+              <div class="input-box">
+                <i class="fas fa-envelope"></i>
+                <input type="text" name="email" placeholder="Enter your email" required>
+              </div>
+              <div class="input-box">
+                <i class="fas fa-lock"></i>
+                <input type="password" name="password" placeholder="Enter your password" required>
+              </div>
+              <div class="text"><a href="#">Forgot password?</a></div>
+              <div class="button input-box">
+                <input type="submit" value="Sumbit">
+              </div>
+              <div class="text sign-up-text">Don't have an account? <label for="flip">Sigup now</label></div>
+            </div>
+        </form>
+      </div>
+        <div class="signup-form">
+          <div class="title">Signup</div>
+        <form action="">
+            <div class="input-boxes">
+              <div class="input-box">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="Enter your name" required>
+              </div>
+              <div class="input-box">
+                <i class="fas fa-envelope"></i>
+                <input type="text" placeholder="Enter your email" required>
+              </div>
+              <div class="input-box">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Enter your password" required>
+              </div>
+              <div class="button input-box">
+                <input type="submit" value="Sumbit">
+              </div>
+              <div class="text sign-up-text">Already have an account? <label for="flip">Login now</label></div>
+            </div>
+      </form>
+    </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+  
+    
+
+
+     <!-- services -->
+    <div id="services">
+      <h2>Services We Offer</h2>
+      <div class="wrapper1">
+          <div class="box">
+             <div class="front-face">
+                <div class="icon">
+                   <i class="fas fa-code"></i>
+                </div>
+                <span>Vaccination Card</span>
+             </div>
+             <div class="back-face">
+                <span>Vaccination Card</span>
+                <p>
+                  Get your child's personalized vaccination card.
+                </p>
+                <p>
+                  <a href=""><b>Get Started</b></a>
+                </p>
+             </div>
+          </div>
+          <div class="box">
+             <div class="front-face">
+                <div class="icon">
+                   <i class="fas fa-chart-line"></i>
+                </div>
+                <span>Vaccination Reminders</span>
+             </div>
+             <div class="back-face">
+                <span>Vaccination Reminders</span>
+                <p>
+                  Get automated reminders.
+                </p>
+             </div>
+          </div>
+          <div class="box">
+             <div class="front-face">
+                <div class="icon">
+                   <i class="fas fa-rocket"></i>
+                </div>
+                <span>Vaccine Information</span>
+             </div>
+             <div class="back-face">
+                <span>Vaccine Information</span>
+                <p>
+                  Visit the link to know more.
+                </p>
+                <p>
+                  <a href="vaccinationcharts.html"><b>Get Started</b></a>
+                </p>
+             </div>
+          </div>
+          <div class="box">
+              <div class="front-face">
+                 <div class="icon">
+                    <i class="fas fa-rocket"></i>
+                 </div>
+                 <span>Appointment Scheduling</span>
+              </div>
+              <div class="back-face">
+                 <span>Appointment Scheduling</span>
+                 <p>
+                  Fill out the form to know more.
+                </p>
+                <p>
+                  <a href=""><b>Get Started</b></a>
+                </p>
+              </div>
+           </div>
+           <div class="box">
+              <div class="front-face">
+                 <div class="icon">
+                    <i class="fas fa-rocket"></i>
+                 </div>
+                 <span>Account MAnagement</span>
+              </div>
+              <div class="back-face">
+                 <span>Account MAnagement</span>
+                 <p>
+                  Fill out the form to know more.
+                </p>
+                <p>
+                  <a href=""><b>Get Started</b></a>
+                </p>
+              </div>
+           </div>
+           <div class="box">
+              <div class="front-face">
+                 <div class="icon">
+                    <i class="fas fa-rocket"></i>
+                 </div>
+                 <span> Help</span>
+              </div>
+              <div class="back-face">
+                 <span>Help</span>
+                 <p>
+                  Fill out the form to know more.
+                </p>
+                <p>
+                  <a href=""><b>Get Started</b></a>
+                </p>
+              </div>
+           </div>
+       </div>
+  </div>
+
+    
+  
+    
+
+
+
+  <!-- moving images -->
+    <style>
+      #mi {
+          background-color: white;
+          height: 30vh;
+          padding-top: 22px;
+      }
+      #mi img{
+          height: 25vh;
+      }
+  </style>
+  <marquee width="100%"
+           id="mi">
+           <pre>
+           <img src="mi1.jpg">            <img src="mi2.webp">            <img src="mi3.webp">            <img src="mi4.webp">            <img src="mi5.webp">            <img src="mi6.webp">            <img src="mi7.webp">            <img src="mi1.jpg">            <img src="mi2.webp">            <img src="mi3.webp">            <img src="mi4.webp">            <img src="mi5.webp">            <img src="mi6.webp">            <img src="mi7.webp">
+          </pre>
+  </marquee>
+
+
+  
+
+
+
+
+    <!-- footer -->
+    <div class="footer">
+      <div class="footer-row">
+        <div class="footer-col">
+          <h4>Redirection Links</h4>
+          <ul class="links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="vaccinationcharts.html">Vaccination Charts</a></li>
+            <li><a href="#services">Service</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul class="links">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Security</a></li>
+            <li><a href="#">Testimonials</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>VaxGuard</h4>
+          <br>
+          <br>
+          <div class="btn">
+            <a class="white" href="#login">Login</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+</body>
+</html>
+
